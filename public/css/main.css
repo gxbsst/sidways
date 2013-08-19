@@ -1,0 +1,172 @@
+@charset "UTF-8";
+* {padding:0;margin:0;}
+body { font-family:"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;font-size:12px;color:#333333;line-height:18px;}
+img {border:none;}
+ul, li {margin:0;pdding:0;list-style:none;}
+input, textarea, select {font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#333333;l}
+.clearfix:after {clear: both;content: ".";display: block;height: 0;visibility: hidden;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+.clear {clear: both;font: 0pt/0 Arial;height: 0;visibility: hidden;}
+a {color: #F30;text-decoration:none;}
+a.hover {color:#f30;text-devoration:underline;}
+h1, h2, h3, h4 {margin:0;padding:0;}
+.prl15 {padding:0 15px;}
+.mb50 {margin-bottom:50px;}
+.mt20 {margin-top:20px;}
+.mb5 {margin-bottom:5px;}
+.align-c {text-align:center;}
+.min-h-500 {min-height:500px;_height:500px;}
+
+/*----------------------------header----------------------------*/
+#header {background:url(../images/bg.jpg) repeat left top;height:111px;}
+#header #main {width:850px;margin:0 auto;padding:20px 0;}
+#search {float:right;}
+.searchbox {background:url(../images/searchbox.gif) no-repeat left top;width:210px;height:30px;}
+.searchbox input {border:1px solid #fcfcfc;background-color:#fcfcfc;height:24px;line-height:24px;margin:2px 0 0 30px;width:160px;}
+.logo {float:left;}
+.topspace {float:right;width:650px;margin-top:15px;}
+.navi, .sec-navi {margin-top:8px;}
+.navi li {float:left;font-size:14px;font-weight:bold;display:block;padding:0 20px 0 25px;background:url(../images/slash.gif) no-repeat left 2px;}
+.navi li.first-child {background:none;}
+.navi li a, .sec-navi li a {color:#000;}
+.navi li a.active, .sec-navi li a.active {color:#f30;}
+.sec-navi li {float:left;display:block;margin-right:20px;}
+.service-navi {padding-left:190px;}
+
+#mainholder {width:850px;margin:40px auto 0 auto;}
+.title {margin-bottom:40px;}
+.line-title {background:url(../images/bg_line.gif) repeat-x left center;margin: 0 0 40px 0;}
+
+/*----------------------------index----------------------------------*/
+.home_kv {background:url(../images/bg.jpg) repeat left top;padding-bottom:20px;}
+.slide {width:850px;margin:0 auto;}
+.home {font-size:14px;line-height:24px;}
+.home .left {width:400px;float:left;margin-right:50px;}
+.home .right {width:400px;float:left;}
+.si {float:left;padding:5px 20px 0 0;}
+
+/*----------------------------about----------------------------------*/
+.home-intro {margin-bottom:60px;}
+.home-intro dl, .case-mobile dl {width:283px;float:left;}
+.home-intro dt, .home-intro dd.title {text-align:center;margin-bottom:40px;}
+.home-intro dd.content {font-size:14px;line-height:24px;padding:0 15px;}
+.home-intro h1 {font-size:18px;font-weight:normal;}
+.tech {margin-top:30px;}
+.tech a {display:inlne-block;margin-right:20px;}
+.tech td {}
+
+/*----------------------------team----------------------------------*/
+.member {width:425px;float:left;margin-bottom:50px;height:160px;}
+.member .base {width:120px;float:left;text-align:center;margin-right:20px;}
+img.avatar {margin-bottom:20px;}
+.member .info {width:255px;float:left;line-height:18px;}
+.avatar {text-indent:-9999px;margin-bottom:20px;}
+.avatar a {display:block;width:120xp;height:120px;}
+a.weston {background:url(../images/team_weston.jpg) no-repeat left top;}
+a.weston:hover {background:url(../images/title_weston.jpg) no-repeat left top;}
+a.james {background:url(../images/team_james.jpg) no-repeat left top;}
+a.james:hover {background:url(../images/title_james.jpg) no-repeat left top;}
+a.sheren {background:url(../images/team_sheren.jpg) no-repeat left top;}
+a.sheren:hover {background:url(../images/title_sheren.jpg) no-repeat left top;}
+a.ian {background:url(../images/team_ian.jpg) no-repeat left top;}
+a.ian:hover {background:url(../images/title_ian.jpg) no-repeat left top;}
+a.hades {background:url(../images/team_hades.jpg) no-repeat left top;}
+a.hades:hover {background:url(../images/title_hades.jpg) no-repeat left top;}
+a.shannon {background:url(../images/team_shannon.jpg) no-repeat left top;}
+a.shannon:hover {background:url(../images/title_shannon.jpg) no-repeat left top;}
+a.kim {background:url(../images/team_kim.jpg) no-repeat left top;}
+a.kim:hover {background:url(../images/title_kim.jpg) no-repeat left top;}
+a.cameron {background:url(../images/team_cameron.jpg) no-repeat left top;}
+a.cameron:hover {background:url(../images/title_cameron.jpg) no-repeat left top;}
+a.jimmy {background:url(../images/team_jimmy.jpg) no-repeat left top;}
+a.jimmy:hover {background:url(../images/title_jimmy.jpg) no-repeat left top;}
+a.jackie {background:url(../images/team_jackie.jpg) no-repeat left top;}
+a.jackie:hover {background:url(../images/title_jackie.jpg) no-repeat left top;}
+a.shanhua {background:url(../images/team_shanhua.jpg) no-repeat left top;}
+a.shanhua:hover {background:url(../images/title_shanhua.jpg) no-repeat left top;}
+a.cc {background:url(../images/team_cc.jpg) no-repeat left top;}
+a.cc:hover {background:url(../images/title_cc.jpg) no-repeat left top;}
+a.deek {background:url(../images/team_deek.jpg) no-repeat left top;}
+a.deek:hover {background:url(../images/title_deek.jpg) no-repeat left top;}
+a.xiaofei {background:url(../images/team_xiaofei.jpg) no-repeat left top;}
+a.xiaofei:hover {background:url(../images/title_xiaofei.jpg) no-repeat left top;}
+a.dean {background:url(../images/team_dean.jpg) no-repeat left top;}
+a.dean:hover {background:url(../images/title_dean.jpg) no-repeat left top;}
+a.alex {background:url(../images/team_alex.jpg) no-repeat left top;}
+a.alex:hover {background:url(../images/title_alex.jpg) no-repeat left top;}
+a.dennis {background:url(../images/team_dennis.jpg) no-repeat left top;}
+a.dennis:hover {background:url(../images/title_dennis.jpg) no-repeat left top;}
+a.ash {background:url(../images/team_ash.jpg) no-repeat left top;}
+a.ash:hover {background:url(../images/title_ash.jpg) no-repeat left top;}
+a.bobby {background:url(../images/team_bobby.jpg) no-repeat left top;}
+a.bobby:hover {background:url(../images/title_bobby.jpg) no-repeat left top;}
+
+/*----------------------------project----------------------------------*/
+.case-mobile dt {margin:0 0 25px 0;}
+.case-mobile dd {padding:0 30px;}
+.project h1, .service h1 {font-size:20px;margin:0 0 10px 0;}
+.project h1 a, .service h1 a {color:#333;text-decoration:none;}
+.project h1 a:hover, .service h1 a:hover {color:#333;text-decoration:none;}
+.case-mobile h2 {font-size:12px;}
+.case-mobile .intro {margin-top:20px;color:#888;}
+.case-web dl {width:850px;float:left;}
+.case-web dt {text-align:center;}
+.case-web dt, .case-web dd {width:425px;float:left;}
+.case-web .intro {padding-right:50px;}
+
+/*----------------------------service----------------------------------*/
+.service .mobile {background:url(../images/service_ex1.jpg) no-repeat right top;height:240px;padding-top:30px;margin-bottom:10px;}
+.service .mobile2 {background:url(../images/service_ex2.jpg) no-repeat left top;height:300px;padding-left:540px;padding-top:30px;margin-bottom:50px;}
+.service .website {background:url(../images/service_ex3.jpg) no-repeat;height:210px;padding:50px 20px 0 460px;margin-bottom:50px;}
+.service .soft {background:url(../images/service_ex5.jpg) no-repeat right top;height:280px;padding:10px 445px 0 15px;margin-bottom:50px;}
+.service .intro {font-size:13px;line-height:22px;}
+.platform {margin-top:30px;}
+.platform td {padding-bottom:30px;}
+.btn_consult {float:right;margin-top:10px;}
+.consult {background-color:#f3f3f3;}
+.consult .mid {padding:30px 30px 10px 30px;}
+.consult th, .consult td {padding:0 0 10px 0;}
+.consult th {font-size:13px;font-weight:bold;text-align:right;padding-right:20px;}
+.consult th.add {}
+.input input {height:26px;background-color:#e2e2e2;border:1px solid #e2e2e2;line-height:26px;}
+.input {background:url(../images/bg_input_left.jpg) no-repeat left top;height:33px;padding-left:17px;}
+.input span {background:url(../images/bg_input_right.jpg) no-repeat right top;height:33px;padding:2px 17px 0 0;display:block;}
+.input span.s1 {width:180px;}
+.input span.s1 input {width:180px;}
+.input span.s2 {width:270px;}
+.input span.s2 input {width:270px;}
+.textarea {background:url(../images/bg_textarea_left.jpg) no-repeat left top;height:113px;padding:0 0 0 17px;resize:none;max-width:629px ;max-height:113px;}
+.textarea span {background:url(../images/bg_textarea_right.jpg) no-repeat right top;height:113px;padding:2px 17px 0 0;display:block;width:629px;}
+.textarea textarea {width:629px;height:90px;background-color:#e2e2e2;border:none;padding:10px 0;}
+
+/*----------------------------clients----------------------------------*/
+.clients-list {background:url(../images/bg_clients_line.gif) repeat-y 0 0 #fff;}
+.clients dl {width:170px;height:200px;float:left;}
+.clients dt {margin-bottom:10px;}
+.clients dd {text-align:center;}
+
+/*----------------------------joinus----------------------------------*/
+.column-l, .column-r {float:left;}
+.column-l {margin-right:20px;padding-right:20px;width:405px;}
+.column-r {width:405px;}
+.joinus dl {margin: 0 0 50px;}
+.joinus dt {margin:0 0 25px 0;}
+.joinus .intro {background:url(../images/joinus_tel_mail.gif) no-repeat 620px 45px #f3f3f3;padding:30px 40px;font-size:13px;line-height:22px;margin:0 0 50px 0;}
+
+/*----------------------------sitemap----------------------------------*/
+.sitemap {padding:0 35px;}
+.sitemap dl {width:130px;float:left;}
+.sitemap dl a {color:#333;}
+.sitemap dl a:hover {color:#F30}
+.sitemap dt {font-size:14px;border-bottom:1px dotted #ccc;margin-right:20px;padding-bottom:10px;}
+.sitemap dd {padding-left:10px;}
+.sitemap dd a {display:block;text-align:left;line-height:24px;}
+
+/*----------------------------footer----------------------------------*/
+#footer {width:850px;margin:0 auto;border-top:1px solid #ddd;padding:15px 0 30px 0;margin-top:40px;font-family:Arial, Helvetica, sans-serif;color:#888;}
+#footer a, #footer a:hover {color:#888;}
+.footerlink a {display:inline-block;padding:0 15px 0 20px;background:url(../images/slash.gif) no-repeat left 2px;}
+.footerlink a.first-child {padding:0 15px 0 0;background:none;}
+.copyright {float:right;}
